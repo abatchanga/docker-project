@@ -1,0 +1,20 @@
+mkdir DevOpsLab
+cd DevOpsLab
+mkdir Docker
+cd Docker
+
+create a file main.tf (copy and paste the content of main.tf that we have in docker-project)
+create a file instal  (copy and paste the content of install.sh that we have in docker-project)
+
+Launch your Lab
+terraform init
+terraform plan
+terraform apply --auto-approve
+
+Wait for 5–10 mins
+Then copy the ssh-command underlined above and paste to access the server using ssh connection.
+Once in your server, run the command below to verify if your lab  is working 
+
+docker ps 
+
+Congratulations, you have just created your docker lab 
